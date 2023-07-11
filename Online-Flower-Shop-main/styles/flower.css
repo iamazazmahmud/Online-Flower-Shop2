@@ -1,0 +1,267 @@
+/* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 2000px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header styles start */
+header {
+    background: #E554731A;
+    height: 100vh;
+
+}
+
+.banner-tittle {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.shop-now-button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+    text-align: center;
+}
+
+.banner-image {
+    width: 400px;
+}
+
+.banner-container {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Main section Styles */
+.feature {
+    /* height: 100vh; */
+    background-position: center;
+    text-align: center;
+}
+
+.feature-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.feature-image {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.feature-image-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 300px;
+    height: 350px;
+
+}
+
+.feature-image-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 300px;
+    height: 350px;
+
+}
+
+.feature-image-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 300px;
+    height: 350px;
+}
+
+.image-tittle {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+/* Hot-deal styles  */
+.hot-deal {
+    height: 100vh;
+    margin-top: 20px;
+    padding: 60px;
+    background: rgba(229, 84, 115, 0.05);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sign-up-button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+}
+
+.hot-deal-tittle {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.hot-deal-image {
+    width: 200px;
+}
+
+/* Instagram section style */
+.instagram-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.image {
+    width: 230px;
+}
+
+.all-flower-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+/* Get The Latest Deals */
+.latest-deals {
+    height:100vh;
+    background-image: url('../background-image/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 60px;
+}
+
+.latest-deal-tittle {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 250px;
+    
+    text-align: center;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 80px;
+    border: none;
+
+}
+
+.subscribe {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+}
+
+/* footer section styles */
+.flower-shop {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.flower-shop-tittle {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.flower-shop-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+    padding-top: 5px;
+}
